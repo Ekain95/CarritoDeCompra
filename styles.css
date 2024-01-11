@@ -1,0 +1,137 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+/* Estilos para el contenedor principal de la aplicación */
+#app {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Estilos para cada elemento de producto */
+.product-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* Estilos para la imagen de cada producto */
+.product-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Estilos para el título de cada producto */
+.product-item h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Estilos para los párrafos de cada producto */
+.product-item p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Estilos para el input de cantidad en cada producto */
+.product-item input {
+  width: 50px;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+/* Estilos para el botón de agregar al carrito en cada producto */
+.product-item button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Estilos para el botón de agregar al carrito en estado de hover */
+.product-item button:hover {
+  background-color: #2980b9;
+}
+
+/* Estilos para el contenedor del carrito de compras */
+.shopping-cart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  max-height: 80vh; /* Establece la altura máxima al 80% del viewport height */
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow-y: auto;
+}
+
+/* Estilos para el contenedor de elementos del carrito */
+.cart-items-container {
+  max-height: 300px; /* Ajusta la altura máxima según tus necesidades */
+}
+
+/* Estilos para cada elemento del carrito */
+.cart-item {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+/* Estilos para la imagen de cada elemento del carrito */
+.cart-item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/* Estilos para el contenedor del texto de cada elemento del carrito */
+.cart-item div {
+  flex-grow: 1;
+}
+
+/* Estilos para los párrafos de cada elemento del carrito */
+.cart-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Estilos para el párrafo del subtotal de cada elemento del carrito */
+.cart-item p.subtotal {
+  font-weight: bold;
+}
+
+/* Estilos generales para los botones */
+button {
+  padding: 8px 15px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Estilos para los botones en estado de hover */
+button:hover {
+  background-color: #2980b9;
+}
